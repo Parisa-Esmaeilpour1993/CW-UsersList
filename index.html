@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="input-boxes">
+      <div>
+        <label for="name">First name: </label>
+        <input id="firstName" type="text" />
+        <div id="required1" class="hidden style">this field is required</div>
+      </div>
+      <div>
+        <label for="lastname">Last Name:</label>
+        <input id="lastName" type="text" />
+        <div id="required2" class="hidden style">this field is required</div>
+      </div>
+      <div>
+        <button id="addBtn">ADD</button>
+      </div>
+    </div>
+    <button id="delete-btn">Delete</button>
+
+    <table>
+      <thead>
+        <td class="table-items"><input type="checkbox" name="" id="total-check" /></td>
+        <th class="table-items">First Name</th>
+        <th class="table-items">Last Name</th>
+        <th class="table-items">Operation</th>
+      </thead>
+
+      <tbody id="peopleList"></tbody>
+    </table>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 8px;
+}
+
+#delete-btn{
+    margin: 8px;
+
+}
+
+#peopleList{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+table{
+    margin: 8px;
+    border: 2px solid black;
+}
+
+.table-items{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.hidden{
+    display: none;
+}
+
+.style{
+    color: lightcoral;
+    font-size: 10px;
+    margin-top: 4px;
+}
